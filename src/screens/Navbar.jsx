@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from '../components/common/Modal/Modal';
-import DesktopNav from '../components/navbar/DesktopNav';
-import MobileNavbar from '../components/navbar/MobileNavbar';
+import DesktopNav from '../components/content/navbar/DesktopNav';
+import MobileNavbar from '../components/content/navbar/MobileNavbar';
 
 const Navbar = () => {
   const [open, setopen] = useState(false);

@@ -1,9 +1,8 @@
 import React from 'react';
-import { FaTimes, FaShoppingCart } from 'react-icons/fa';
+import { FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/favicon.ico';
 import { Transition } from 'react-transition-group';
-import menuList from '../../services/data/menuList';
+import menuList from '../../../../services/data/menuList';
 
 const duration = 300;
 

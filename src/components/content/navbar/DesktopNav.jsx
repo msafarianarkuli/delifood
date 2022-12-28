@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/images/favicon.ico';
+import logo from '../../../assets/images/favicon.ico';
 import { FaSearch, FaShoppingCart } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
