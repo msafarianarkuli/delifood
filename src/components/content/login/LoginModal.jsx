@@ -33,7 +33,7 @@ const LoginModal = ({ mode, closeModal }) => {
           }}
         >
           <div
-            className={`fixed left-0 right-0 mx-auto z-50 overflow-y-auto md:w-full max-w-md md:h-auto shadow rounded-lg bg-white opacity-100 py-5${
+            className={`fixed left-0 right-0 mx-auto z-50 overflow-y-auto md:w-full max-w-md md:h-auto shadow rounded-lg bg-white opacity-100 py-5 ${
               mode ? 'opacity-1' : 'opacity-0'
             }`}
           >

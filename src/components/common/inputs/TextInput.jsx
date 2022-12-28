@@ -16,7 +16,7 @@ const TextInput = ({ label, ...props }) => {
         {...field}
         className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
       />
-      <div className="h-1 px-3 py-1">
+      <div className="h-1 px-3 py-1 text-sm">
         {meta.touched && meta.error ? (
           <div className="text-red-500">{meta.error}</div>
         ) : null}
