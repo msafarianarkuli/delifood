@@ -3,6 +3,7 @@ import { FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { Transition } from 'react-transition-group';
 import menuList from '../../../services/data/menuList';
+import SearchInput from '../../common/inputs/SearchInput';
 
 const duration = 300;
 
@@ -44,6 +45,7 @@ const MobileNavbar = ({ mode, onClose }) => {
             <div className="my-5">
               <nav>
                 <ul className="space-y-6 text-lg">
+                  <SearchInput onClose={onClose} />
                   {menuList.map((item) => (
                     <li key={item.id}>
                       <Link
