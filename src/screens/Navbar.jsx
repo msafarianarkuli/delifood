@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Modal from '../components/common/Modal/Modal';
+import Modal from '../components/content/login/LoginModal';
 import DesktopNav from '../components/content/navbar/DesktopNav';
 import MobileNavbar from '../components/content/navbar/MobileNavbar';
 
